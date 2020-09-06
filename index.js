@@ -17,3 +17,7 @@ function appendKitten(name) {
   var newKit = kittens.concat(name);
   return newKit;
 }
+function prependKitten(name) {
+  van newKit = [name];
+  return newkit.concat(kittens)
+}
